@@ -1,5 +1,5 @@
 <?php
   echo 'hello world';
   echo '<br>';
-  echo 'today is THU';
+  echo 'today is today';
 ?>
