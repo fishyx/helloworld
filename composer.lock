@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9116bf05715f76911802c96e08a93c45",
+    "packages": [
+        {
+            "name": "stcer/j-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.jz.cn:j/core.git",
+                "reference": "9bcdf39030aac96ae7f02424d6f1d196c75c1359"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "http://packages.9z.cn/dist/stcer/j-core/stcer-j-core-dev-master-7e1e48.tar",
+                "reference": "9bcdf39030aac96ae7f02424d6f1d196c75c1359",
+                "shasum": "d866179e25e98459d9065e721ea423c263326e63"
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "stcer/ide-doc": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "j\\base\\": "src/base",
+                    "j\\contracts\\": "src/contracts",
+                    "j\\cache\\": "src/cache",
+                    "j\\called\\": "src/called",
+                    "j\\debug\\": "src/debug",
+                    "j\\di\\": "src/di",
+                    "j\\error\\": "src/error",
+                    "j\\event\\": "src/event",
+                    "j\\filesystem\\": "src/filesystem",
+                    "j\\log\\": "src/log",
+                    "j\\security\\": "src/security",
+                    "j\\net\\": "src/net",
+                    "j\\tool\\": "src/tool"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stcer",
+                    "email": "7443930@qq.com"
+                }
+            ],
+            "description": "The core components of my PHP applications",
+            "time": "2018-03-10T02:16:58+00:00"
+        },
+        {
+            "name": "stcer/j-db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.jz.cn:j/db.git",
+                "reference": "8fb9634ace163fc7ce4670da193fc984f8e6fe8e"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "http://packages.9z.cn/dist/stcer/j-db/stcer-j-db-dev-master-b14273.tar",
+                "reference": "8fb9634ace163fc7ce4670da193fc984f8e6fe8e",
+                "shasum": "148a3797e85cec8bfe4d3be82ff91f8dade09e54"
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "stcer/j-core": "dev-master"
+            },
+            "require-dev": {
+                "lox/xhprof": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "j\\db\\": "src/db",
+                    "j\\mongo\\": "src/mongo",
+                    "j\\model\\": "src/model"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stcer",
+                    "email": "7443930@qq.com"
+                }
+            ],
+            "description": "Database access components",
+            "time": "2018-02-26T09:40:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "stcer/j-db": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

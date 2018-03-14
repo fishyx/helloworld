@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "stcer/j-db": "dev-master"
+    },
+     "repositories": [
+     {
+        "type": "composer",
+        "url": "http://packages.9z.cn"
+      }
+      ],
+    "config": {
+        "secure-http": false
+    }
+}

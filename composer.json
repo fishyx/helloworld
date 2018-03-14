@@ -1,0 +1,13 @@
+{
+    "name": "administrator/test",
+    "authors": [
+        {
+            "name": "fish",
+            "email": "546649002@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "stcer/j-db": "dev-master"
+    }
+}
